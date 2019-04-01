@@ -3,4 +3,4 @@ def alphabetize(word_list)
   sorter = alphabet.split("")
   return word_list.sort_by{|x| sorter.index(x[0])}
 end
-puts alphabetize(["ŝab","ĉab","fab"])
+#puts alphabetize(["ŝab","ĉab","fab"])
