@@ -5,5 +5,6 @@ def alphabetize(word_list)
     puts i
     puts sorter.index(i[0])
   end
+  puts word_list.sort_by{|x| sorter.index(x[0])}
 end
 alphabetize(["ŝab","ĉab","fab"])
